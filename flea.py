@@ -3,7 +3,7 @@ n = 20
 # initialize a and b at time 0
 a = 20
 b = 0
-for i in range (1, n-1):
+for i in range (1, n+1):
     print("-------------------------------")
     print("At time = ", i)
     random_number= random.random()
