@@ -18,5 +18,6 @@ for i in range(1, n+1):
         else:
             a += 1
             b -= 1
-        print(a, b)
-        print(count)
+        print("(a=",a, ",b=",b,")")
+        if(a==20 & b==0):
+            print("average value: ", count/20)
